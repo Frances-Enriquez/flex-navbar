@@ -1,0 +1,41 @@
+.nav{
+    display: flex;
+    background-color: palevioletred;
+    font-family: 'Courier New', Courier, monospace;
+    height: 40px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links{
+    display: flex;
+    color: black;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    width: 50%;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    font-size:larger;
+    margin-top: 10px;
+}
+.btn{
+    background-color: antiquewhite;
+    box-shadow: 2px, 1px;
+    font-family: monospace;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-size: 100%;
+    background-image: url(https://m.media-amazon.com/images/I/71PHpKdoSvL._AC_SL1132_.jpg);
+}
+li{
+    margin: 20px;
+}
+.nav-title{
+    padding: 0%;
+}
